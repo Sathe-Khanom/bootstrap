@@ -8,24 +8,32 @@
     height: 15vh;
     background-color: cornflowerblue;
 }
-#navbar ul li{
+#navright ul li{
     list-style: none;
     color: aliceblue;
-    float: left;
-    /* margin-left: 50px; */
+    float: right;
+    margin: 10px;
 }
-#navleft{
-    width: 10%;
+
+#navright a{
+    text-decoration: none;
+    color: white;
+}
+
+/* #navleft{
     display: block;
     float: left;
-    margin: 10px 20px 30px 50px;
-
 }
+
+#navleft h4{
+    padding: 45px;
+    color: white;
+} */
 
 #navright{
     width: 30%;
     display: block;
-    float: left;
+    float: right;
     margin: 30px 20px 10px 500px;
     text-align: right;
     
@@ -45,7 +53,7 @@
 }
 
 #left img{
-    width: 10%;
+    width: 100px;
     display: block;
     float: left;
     margin:10px 10px 10px 10px ;
