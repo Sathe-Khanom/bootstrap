@@ -23,10 +23,10 @@
                 <a class="nav-link active" aria-current="page" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="features.html">Features</a>
+                <a class="nav-link" href="features.html" target="my content">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html" target="my content">Contact Us</a>
               </li>
               
                 </ul>
@@ -34,6 +34,10 @@
             </ul>
           </div>
         </div>
+        <form class="d-flex">
+          <input class="form-control border-danger me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
       </nav>
    
 <!-- navbar close -->
@@ -42,7 +46,7 @@
 
 
          <!-- sidebar start -->
-      <div id="sidebar" class="sidebar">
+      <div id="sidebar" class="sidebar col-md-2">
         
         <ul class="nav flex-column">
             <li class="nav-item">Home</li>
@@ -54,9 +58,9 @@
     </div>
     <!-- sidebar close -->
 
-   <div id="iframe">
-    <iframe  name="mycontent" width="80%" style="height: 100vh; src: ="0" ></iframe>
-   </div>
+    <div class="col-md-10">
+      <iframe name="mycontent" src="" frameborder="0"></iframe>
+  </div>
     
      </div>
 </body>
